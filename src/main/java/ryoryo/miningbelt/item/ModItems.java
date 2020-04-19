@@ -1,7 +1,7 @@
 package ryoryo.miningbelt.item;
 
 import net.minecraft.item.Item;
-import ryoryo.polishedlib.util.Utils;
+import ryoryo.miningbelt.MiningBelt;
 
 public class ModItems
 {
@@ -9,6 +9,6 @@ public class ModItems
 
 	public static void init()
 	{
-		Utils.registerItem(ITEM_MINING_BELT, "mining_belt");
+		MiningBelt.REGISTER.registerItem(ITEM_MINING_BELT, "mining_belt");
 	}
 }
