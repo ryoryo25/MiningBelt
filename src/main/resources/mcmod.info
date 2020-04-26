@@ -1,0 +1,16 @@
+[
+	{
+		"modid": "miningbelt",
+		"name": "MiningBelt",
+		"description": "This mod adds mining belt.",
+		"version": "${version}",
+		"mcversion": "${mcversion}",
+		"url": "Nothing",
+		"updateUrl": "Nothing",
+		"authorList": ["ryoryo"],
+		"credits": "Many minecraft modders!",
+		"logoFile": "assets/smallstairs/textures/mod_logo.png",
+		"screenshots": [],
+		"dependencies": ["mod_MinecraftForge", "polishedlib", "baubles"]
+	}
+]
