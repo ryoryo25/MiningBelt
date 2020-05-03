@@ -8,23 +8,18 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import ryoryo.miningbelt.event.MiningEvent;
 import ryoryo.miningbelt.item.ModItems;
 
-public class CommonProxy
-{
-	public void preInit(FMLPreInitializationEvent event)
-	{
+public class CommonProxy {
+	public void preInit(FMLPreInitializationEvent event) {
 		ModItems.init();
 	}
 
-	public void init(FMLInitializationEvent event)
-	{
+	public void init(FMLInitializationEvent event) {
 		MinecraftForge.EVENT_BUS.register(new MiningEvent());
 	}
 
-	public void postInit(FMLPostInitializationEvent event)
-	{
+	public void postInit(FMLPostInitializationEvent event) {
 	}
 
-	public void loadComplete(FMLLoadCompleteEvent event)
-	{
+	public void loadComplete(FMLLoadCompleteEvent event) {
 	}
 }
